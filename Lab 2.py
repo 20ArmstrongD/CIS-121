@@ -17,13 +17,16 @@ print("an age",human_age,"human should be",dog_years *20, "in dogs age")
 # calculate how old is the human in dog years
 human_age = int(input("How old are you?")) 
 
+#part1B
+
+
 humanage = 20
 
 humanmonths = 9
 
 humandays = 4
 
-Print("you are", humanage, "years", humanmonths, "months")
+print("you are",humanage,"years",humanmonths,"months", "and", humandays, "days old")
 
 #create a script that asks the user for name, lastname, and age. print out info as follows
 #hi Donnie Armstrong, you are 20 years old
@@ -50,5 +53,5 @@ print("an age",human_age, "human should be about",horse_years, "in horse age")
 humanage = float(input("what is your age?"))
 humanheight = humanage **2
 
-print("a human with an age of ", humanage, "should be", humanheight "feet tall")
+print("a human with an age of ", humanage, "should be", humanheight,"feet tall")
 
