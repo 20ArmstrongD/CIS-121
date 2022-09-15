@@ -56,7 +56,7 @@ print("hey",name, "you make" ,income, "a year")
 print("this is what you could make in 20 years")
 
 done = False  
-years = 1
+years = 20
 money = 0
 while done != True:
     money = income*years
