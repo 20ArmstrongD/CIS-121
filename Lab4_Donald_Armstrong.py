@@ -1,3 +1,4 @@
+#started with this but im completly lost 
 w = 20
 n = int(input("enter an upper bound for a check: "))
 print("between 1 and",n, "there are")  
