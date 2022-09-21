@@ -85,6 +85,9 @@ while (w,n):
         if n % w ==0:
             print(n," not proper devisor")
             n+=1
+
+#did my best with these last couple problem but really not understadning how to do them and havn't had the time for mavpass
+
        
 
 
