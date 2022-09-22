@@ -1,14 +1,36 @@
 #started with this but im completly lost 
-w = 20
-n = int(input("enter an upper bound for a check: "))
-print("between 1 and",n, "there are")  
 
-while (w,n):
-    while (n,w):
-        if n % w ==0:
-            print(n," not proper devisor")
-            n+=1
-        else:  
+upperbound = int(input("enter an upper bound for a check: "))
+defiecent = 0
+perfect = 0
+abundent = 0
+testnumber = 1
+
+while testnumber <= upperbound:
+    div = 1 #keeps track of potentional divisors 
+    sum = 0 #keeps track of summers of proper divisors
+
+    while div < testnumber: #for proper divisor of test numbers
+        if(testnumber % div == 0): #print for proper divsior 
+            sum += 1
+            div +=1 
+        
+    if(sum == testnumber):  # print for test number is a proficent 
+
+        elif(sum < testnumber) :
+        defiecent +=1
+
+    else:
+        abundent +=1
+        #print 
+
+    testnumber += 1
+
+print(defiecent)
+print(perfect)
+print(abundent)
+
+
 
 
 
