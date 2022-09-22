@@ -60,22 +60,7 @@ for letter in DecodeWord:
     if DecodeWord == T:
         print(L)
 
-#    d={"L":"T","T":"L","8":"A","B":"A","A":"E","E":"B"} 
 
-#    ans = ""
-#    for i in s:
-#         if i in d:
-#             ans = ans + d[i]
-#         else:
-#             ans = ans + i
-#         return ans
-# print(decode("WBLARF8TTS"))
-# print(decode("L8KAOUL"))
-# print(decode("E8N8N8"))
-# print(decode("8TRA8DY T8LA"))
-# print(deocde("8TT LHA TILLTA LIMAS"))
-# print(decode("LHA GRAAN FIATD GTA8MS IN LHA W8RM SUNEABMS"))
-# print(decode("TONG T8E T8CKS L8SLY L8CO LIMA 8L TA8SL T8LATY"))
 
     
     
