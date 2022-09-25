@@ -17,11 +17,11 @@ while testnumber <= upperbound:
         
     if(sum == testnumber):  # print for test number is a proficent 
 
-        elif(sum < testnumber) :
-        defiecent +=1
+    elif(sum < testnumber) :
+    defiecent +=1
 
     else:
-        abundent +=1
+    abundent +=1
         #print 
 
     testnumber += 1
