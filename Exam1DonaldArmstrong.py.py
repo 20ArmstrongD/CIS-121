@@ -1,9 +1,9 @@
-#1A doesnt work because random_number is a string
-#1a corrected age may or not be a numerical value
-#1B doesn't work because at that point in the code number is not defined
-#1c it will un because number is defined within the code nippet
-#1d will not run because print is not propley indented
-#1e this is correct
+#1A doesnt work because random_number is a string not an integer
+
+#1B doesn't work because at that point in the code number is not defined and is infinate
+#1c it will run because number is defined within the code snippet
+#1d will not run because print is not properly indented
+#1e needs to be an integer input
 # name = input("please enter your name:")
 # age = input ("please enter your age: ")
 
@@ -32,23 +32,28 @@
 
 
 #problem 2
-milkcost = 2.00
-eggscost = 1.50
-baconbost = 3.00
-milk =  float(input("how much milk dod you buy?:"))
-eggs = float(input("how much eggs did you buy?:"))
-bacon = float(input("how much bacon did you buy?:"))
+# milkcost = 2.00
+# eggscost = 1.50
+# baconbost = 3.00
+# milk =  int(input("how much milk dod you buy?:"))
+# eggs = float(input("how much eggs did you buy?:"))
+# bacon = float(input("how much bacon did you buy?:"))
 
-subtotal = milk * milkcost + eggs * eggscost + bacon * baconbost
-taxamt = subtotal * 0.11
-total = subtotal + taxamt
-print("you bought", milk, "milks,", eggs, "eggs, and", bacon, "bacon" )
-print("your subtatal is",subtotal)
-print("your tax", taxamt)
-print("your total is $", total)
+# subtotal = milk * milkcost + eggs * eggscost + bacon * baconbost
+# taxamt = subtotal * 0.11
+# total = subtotal + taxamt
+# print("you bought", milk, "milks,", eggs, "eggs, and", bacon, "bacon" )
+# print("your subtatal is",subtotal)
+# print("your tax", taxamt)
+# print("your total is $", total)
 
 #problem 3
 
+# def numberNice():
+
+#     number = input("please enter your number:")
+
+    # print("(",number,[0:3],"(", number[3:6],"")
 # import numbers
 # from random import random
 
@@ -72,17 +77,8 @@ print("your total is $", total)
 
 
     # numbe = str(input("please enter your phone number "))
-    # return number
-# number = askUserForPhone()
-# print(number)
-# number2 = askUserForPhone()
-# print(number2)
+# 2
 
-# phone_number = 7875551212
-# print("(787)-555-1212")
-
-# #for number in phone_number:
-#     print(number)
 
 #problem 4
 def randnums(): #definition for function
@@ -94,7 +90,8 @@ def randnums(): #definition for function
                 print(i)
             if i >= 15: # test if i numbers are greater that 15 
                 print("I generated the number", i, ", randomly")
-    
+randnums()
+
 # randnums() 
 
 # def askUserForNumber():
