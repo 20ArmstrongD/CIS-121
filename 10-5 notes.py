@@ -26,19 +26,18 @@ def str_to_int(data) :
     for number in data:
         if number.isdigit():
             temp.append(int(number))
-    return(temp)
+    return temp
 
 print(str_to_int(data))
 
 #create a function that takes numbers then adds 5 to them.
 
 def str_add_five(data):
-    temp1 = []
+    temp = []
 
     for number in data:
-        temp.append(number+5)
-
-    return(temp1)
+        temp.append(str(number))
+    return temp
 
 print(str_add_five(data))
 
@@ -47,21 +46,49 @@ print(str_add_five(data))
 
 with open("results_.txt","w") as f:
     for number in data:
-        f.write(str("number")) + "\n"
+        f.write(str(number) + "\n") 
 
 #genreate a random number
-a = random.randint(1,100)
-print(a)
+# a = rand.randint(1,100)
+# print(a)
 
-#part 1
-#gernate a list with 100 random values
-#then write the vlaues to a file calle "random_numbers_generated.txt"
+# #part 1
+# #gernate a list with 100 random values
+# #then write the vlaues to a file calle "random_numbers_generated.txt"
+
+rand = []
+
+for i in range(100):
+    rand.append(random.radiant(1,100))
+
+#writing to file
+write_to_file(rand,"random_numbers_generated")
 
 a = random.randint(1,100)
-print(a)
+# print(a)
 
 #part 2
 #generate a function that counts how many times each number appears
 #use a dictionary to keep track
 
+def count_num(data):
 
+    temp = {}
+
+    for number in data:
+        if number in temp:
+            pass
+        else:
+            temp[str(number)] = data.count(number)
+    return temp
+
+print(count_num(rand))
+
+
+
+#part C
+#write the info from disctionary to a file calles "final.txt"
+
+with open("final.txt"'w') as f:
+    for key in c:
+        f.write(key+":"+str(c[key])+'/n')
