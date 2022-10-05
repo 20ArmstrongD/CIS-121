@@ -1,0 +1,10 @@
+the mean number of apples eaten 6.114649681528663
+
+
+The mean of the number of apples eaten 6the mean number of bananas eaten 5.840425531914893
+
+
+The mean of the number of bananas eaten 6.0the mean number of strawberries eaten 6.077419354838709
+
+
+The mean of the number of strawberries eaten 6
