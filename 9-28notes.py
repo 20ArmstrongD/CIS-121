@@ -77,7 +77,7 @@ while count < 3:
     names.append(user_input)
     count+=1 
 
-    if count == 1:
+if count == 1:
 
 
 
