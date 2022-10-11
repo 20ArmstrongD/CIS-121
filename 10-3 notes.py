@@ -1,38 +1,38 @@
-# names = ["Donnie", 2,2.3,23]
+names = ["Donnie", 2,2.3,23]
 
-# print(names[2])
-
-
-# #empty dictionary
-# info = {}
-
-# info = {
-#     "patient 0" : ["Donnie", "armstrong", 23],
-#     "patient 1": 23,
-#     "patient 2": ["bob", "builder", 123]
-# }
-
-# #how to add values to dictionary 
-# info["patient 3"] = "roger", "NA", "NA"
+print(names[2])
 
 
-# print(info["patient 3"])
+#empty dictionary
+info = {}
+
+info = {
+    "patient 0" : ["Donnie", "armstrong", 23],
+    "patient 1": 23,
+    "patient 2": ["bob", "builder", 123]
+}
+
+#how to add values to dictionary 
+info["patient 3"] = "roger", "NA", "NA"
+
+
+print(info["patient 3"])
 
 
 # #create scrip that ask user for namme, last, age, and keep this stored in dictionary, then print out the values
-# name = input("what is your name:")
-# last_name = input("what is your last name:")
-# age = input("what is your age:")
+name = input("what is your name:")
+last_name = input("what is your last name:")
+age = input("what is your age:")
 
-# info = {
-#     name : [name,last_name,age]
-# }
+info = {
+    name : [name,last_name,age]
+}
 
-# print("hi your name is", info[name][0]+" "+info[name][1],"you are ", info[name][2], "years old")
+print("hi your name is", info[name][0]+" "+info[name][1],"you are ", info[name][2], "years old")
 
 
-#create a script that asks the user for 5 soccer palyers and how many goals they have made this season(in a dictionary).
-#calculate the avg in seaprate function
+# create a script that asks the user for 5 soccer palyers and how many goals they have made this season(in a dictionary).
+# calculate the avg in seaprate function
 
 
 def average_Goals(players):
